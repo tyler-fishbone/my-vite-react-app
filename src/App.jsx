@@ -16,7 +16,7 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a>
           <img src={tylerPic} className="logo react" alt="Tyler face pic" />
         </a>
       </div>
@@ -30,7 +30,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Vite and React logos to learn more. But not Tyler's face, that doesn't do anything.
       </p>
     </>
   )
