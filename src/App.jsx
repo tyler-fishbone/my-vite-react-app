@@ -13,14 +13,14 @@ function App() {
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
         <a>
           <img src={tylerPic} className="logo react" alt="Tyler face pic" />
         </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
       </div>
-      <h1>Vite + React + Tyler</h1>
+      <h1>Vite + Tyler + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Count is {count}
